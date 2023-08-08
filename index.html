@@ -6,16 +6,15 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
       <title> Age calculator app</title>
-      <script src="script.js"></script>
     </head>
     <body>
-     <div class="card">
+      <div class="card">
       <div class="container">
         <form>          <label for="birth">Your Birth Date</label><br>
           <input type="date" name="birth" id="birth" required><br>
           <div class="submit">
             <hr>
-            <button type="submit" class="btn"><img src="./assets/images/icon-arrow.svg" alt="icon"></button>
+            <button type="submit" class="btn" onclick="calculateAge()"><img src="./assets/images/icon-arrow.svg" alt="icon"></button>
           </div>
         </form>
 
@@ -25,7 +24,8 @@
           <h1><span id="DD">--</span>days</h1>
         </div>
       </div>
-     </div>
-    </body>
+    </div>
+  </body>
+  <script src="script.js"></script>
 
 
